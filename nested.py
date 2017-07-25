@@ -5,8 +5,10 @@ que imprime listas que podem ou não estarem aninhadas
 
 """
 Esta função requer um argumento posicional chamado "the_list" 
-que é qualquer lista Python (de possiveis listas aninhadas). Cada item 
-na lista fornecida é (recursivamente) impresso em sua própia linha
+que é qualquer lista Python (de possiveis listas aninhadas).
+ Cada item 
+na lista fornecida é (recursivamente) impresso em sua própia 
+linha
 """
 def printerlol(each_item):
 	for each_item in the_list:
@@ -14,5 +16,9 @@ def printerlol(each_item):
 			print_lol(each_item)
 		else:
 			print(each_item)
+
+"""
+Comentario final
+"""
 	
 	
